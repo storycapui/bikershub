@@ -1,2 +1,2 @@
-# bikershub
-ecommerce web-application
+# BikersHub
+Ecommerce Web-Application
