@@ -1,11 +1,11 @@
 import React from 'react';
 import './navbar.css';
-import 
+import logo1 from '../components/Assets'
 
 const Navbar = () => {
   return (
     <div className='Navbar'>
-        <img src="{bikers hub logo.jpg}" alt="company logo" />
+        <img src="{logo1}" alt="company logo"/>
     </div>
   )
 }
