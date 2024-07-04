@@ -7,6 +7,7 @@ import Spares from './pages/spares.js';
 import Womens from './pages/womens.js';
 import Gears from './pages/gears.js';
 import Shoes from './pages/home.js';
+import Community from './pages/community.js';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/womens" element={<Womens />} />
         <Route path="/gears" element={<Gears />} />
         <Route path="/shoes" element={<Shoes />} />
+        <Route path="/community" element={<Community />} />
       </Routes>
     </main>
   </Router>

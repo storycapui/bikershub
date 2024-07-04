@@ -10,13 +10,14 @@ import cart_icon from '../components/Assets/cart_icon.png'
 function Navbar() {
   return (
      <div className='navbar'>
-        <div className="nav-top"><marquee> <p>Above 500/- Purchase  #ALL Over India Free Delivery &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact Support [9:00 am to 7:pm]</p></marquee></div>
+        <div className="nav-top"><marquee> <p>Above 5000/- Purchase  #ALL Over India Free Delivery &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact Support [9:00 am to 7:pm]</p></marquee></div>
         <div className="nav-menu">
             <div className="nav">
               <NavLink exact to="/" className="logo_icon"> <img src={bikershub} alt="bikershub logo" /> </NavLink> 
-                <div className="search_bar"> <input type="search" name="search-form" id="search-form" className="search-input"
+                <div className="search_bar"><input type="search" name="search-form" id="search-form" className="search-input"
                 //onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="🔎 EXPLORE"/></div>
+                placeholder="🔎 EXPLORE"/>
+                </div>
                 <div className="login_cart_buttons">
                     <img src={cart_icon} alt="cart icon" />
 
@@ -33,7 +34,7 @@ function Navbar() {
                  <NavLink  to ="/spares" className="links"> <li >&nbsp; Spares &nbsp; </li></NavLink>   
                  <NavLink  to ="/womens"  className="links"> <li >&nbsp; Womens &nbsp; </li></NavLink>   
                 </ul>
-                <button className='jncomnty'>JOIN COMMUNITY</button>
+                <NavLink  to ="/community"> <button className='jncomnty' >JOIN COMMUNITY</button></NavLink>
             </div>
         </div>
 

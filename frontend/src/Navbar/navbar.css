@@ -2,6 +2,9 @@
 
       font-family: "Roboto Mono", monospace;
       text-decoration: none;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
 }
 .navbar{
     max-width:100%;
@@ -126,6 +129,7 @@
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
+    color:black;
 }
 .links:hover{
     background-color: black;
