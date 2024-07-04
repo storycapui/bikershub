@@ -75,6 +75,23 @@
     gap:20px;
     margin-right:150px;
 }
+.login_cart_buttons .cart_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_section .cart_count{
+        width:15px;
+        height:15px;
+        border-radius:100px;
+        background-color: red;
+        font-size:14px;
+        margin-top:-25px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 .login_cart_buttons img{
     width:28px;
     height:28px;

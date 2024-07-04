@@ -7,6 +7,8 @@ import cart_icon from '../components/Assets/cart_icon.png'
 
 
 
+
+
 function Navbar() {
   return (
      <div className='navbar'>
@@ -16,10 +18,11 @@ function Navbar() {
               <NavLink exact to="/" className="logo_icon"> <img src={bikershub} alt="bikershub logo" /> </NavLink> 
                 <div className="search_bar"><input type="search" name="search-form" id="search-form" className="search-input"
                 //onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="🔎 EXPLORE"/>
+                placeholder= "🔎 EXPLORE"/>
                 </div>
                 <div className="login_cart_buttons">
-                    <img src={cart_icon} alt="cart icon" />
+                    <div className='cart_section'><img src={cart_icon} alt="cart icon" />
+                    <span className='cart_count'>0</span></div>
 
                     <button className='login_button'>Login</button>
                 </div>  
