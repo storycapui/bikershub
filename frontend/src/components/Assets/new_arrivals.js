@@ -10,7 +10,7 @@ import image8 from "./image8.jpg";
 import image9 from "./image9.jpg";
 import image10 from "./image10.jpg";
 
-let new_collections = [
+let new_arrivals = [
   {
     id: 1,
     name: "acrophovic silencer",
@@ -93,4 +93,4 @@ let new_collections = [
   },
 ];
 
-export default new_collections;
+export default new_arrivals;
