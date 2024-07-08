@@ -14,7 +14,10 @@ const Item = (props) => {
             {props.old_price}
         </div>
     </div>
-
+    <div className='buy_cart'>
+    <div className='buy_now'> <button> BUY NOW </button> </div>
+    <div className='add_to_cart'> <button> ADD TO CART </button> </div>
+    </div>
     </div>
   )
 }
