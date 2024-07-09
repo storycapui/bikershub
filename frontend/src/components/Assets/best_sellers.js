@@ -14,6 +14,7 @@ let best_sellers = [
     old_price: "12000.5/-",
     sizes : ["S", "L", "M"],
     colors: ["#000000", "#ffffff", "#zzzzzz"],
+    stock : "Instock",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ let best_sellers = [
     old_price: "17000.5/-",
     sizes : ["S", "L", "M"],
     colors: ["#000000", "#ffffff", "#zzzzzz"],
+    stock : "Instock",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ let best_sellers = [
     old_price: "22000.5/-",
     sizes : ["S", "L", "M"],
     colors: ["#000000", "#ffffff", "#zzzzzz"],
+    stock : "Instock",
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ let best_sellers = [
     old_price: "27000.5/-",
     sizes : ["S", "L", "M"],
     colors: ["#000000", "#ffffff", "#zzzzzz"],
+    stock : "Instock",
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ let best_sellers = [
     old_price: "6000.5/-",
     sizes : ["S", "L", "M"],
     colors: ["#000000", "#ffffff", "#zzzzzz"],
+    stock : "Instock",
   },
 ];
 

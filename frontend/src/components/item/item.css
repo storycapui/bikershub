@@ -11,6 +11,7 @@
 }
 .item .prod_name{
     margin: 5px 5px;
+    text-transform: uppercase;
 }
 .item-prices{
     display:flex;

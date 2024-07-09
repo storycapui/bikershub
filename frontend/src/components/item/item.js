@@ -18,6 +18,9 @@ const Item = (props) => {
     <div className='buy_now'> <button> BUY NOW </button> </div>
     <div className='add_to_cart'> <button> ADD TO CART </button> </div>
     </div>
+    <div className='stock_avail'>
+      {props.stock}
+    </div>
     </div>
   )
 }
