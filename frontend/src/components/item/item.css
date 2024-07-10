@@ -37,9 +37,9 @@
     height:150px;
     object-fit: contain;
 }
-.item-price-new{
+.item .item-price-new p{
     color: black;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 900;
     font-size: 20px;
     display: flex;
@@ -49,7 +49,7 @@
 }
 .item-price-old{
     color:red;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: line-through;
     font-size: 14px;
@@ -103,7 +103,7 @@
     justify-content:center;
     align-items: center;
 }
-.stock_avail h3{
+.stock_avail h5{
     color:#ffffff;
     text-transform: uppercase;
     background-color: #125e12;
@@ -122,4 +122,8 @@
 .social_media .instagram_icon{
     font-size:28px;
     color:#a02667;
+}
+.social_media .youtube_icon{
+    font-size:28px;
+    color:#ff0000;
 }
