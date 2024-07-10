@@ -2,7 +2,9 @@ import React from 'react'
 import './categeories.css'
 import Cat_Item from './cat_item'
 import categeories from '../Assets/categories'
-import { Link } from 'react-router-dom';
+
+
+
 
 const Categeories = (props) => {
   return (
@@ -10,12 +12,11 @@ const Categeories = (props) => {
         <br/>
         <h1>CATEGEORIES</h1>
         <br/>
-        <div className='categeories_section'>
+        <ul className='categeories_section'>
         {categeories.map((item, i)=>{
-        return <Link><Cat_Item key = {i} id = {item.id} name = {item.name} image = {item.image}/></Link>
-      })}
-     
-      </div>
+          return <Cat_Item className='cat_pro' key = {i} id = {item.id} image={item.image}  name={item.name}/>
+        })}
+        </ul>
         </div>
   )
 }

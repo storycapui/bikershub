@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import home_banner from '../components/Assets/home_banner.jpg'
 import Categeories from '../components/categeories/categeories';
 import Bestsellers  from '../components/bestsellers/bestsellers';
+import { Newarrivals } from '../components/newarrivals/newarrivals';
 
 
 function Home() {
@@ -14,6 +15,9 @@ function Home() {
     <Categeories />
     <hr/>
     <Bestsellers />
+    <br/>
+    <Newarrivals />
+    
     </div>  
     
 
