@@ -6,6 +6,8 @@ import image4 from "./image4.jpg";
 import image5 from "./image5.jpg";
 import image6 from "./image6.jpg";
 
+
+
 let categeories = [
     {
         id: 1,

@@ -4,6 +4,7 @@ import './item.css'
 const Item = (props) => {
   return (
     <div className='item'> 
+    <div className='discount'><p>{props.discount}</p></div>
     <img className='prod_image' src={props.image} alt="" />
     <div className='prod_name'><h3>{props.name}</h3></div>
     <div className='item-prices'>
@@ -19,7 +20,11 @@ const Item = (props) => {
     <div className='add_to_cart'> <button> ADD TO CART </button> </div>
     </div>
     <div className='stock_avail'>
-      {props.stock}
+      <h3>{props.stock}</h3>
+    </div>
+    <div className='social_media'>
+      <section className='whatsapp_icon'>{props.whatsapp}</section>
+       <section className='instagram_icon'>{props.instagram}</section> 
     </div>
     </div>
   )

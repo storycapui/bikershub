@@ -6,7 +6,7 @@ import Accessories from './pages/accessories.js';
 import Spares from './pages/spares.js';
 import Womens from './pages/womens.js';
 import Gears from './pages/gears.js';
-import Shoes from './pages/home.js';
+import Shoes from './pages/shoes.js';
 import Community from './pages/community.js';
 
 

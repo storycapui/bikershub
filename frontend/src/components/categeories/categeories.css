@@ -1,35 +1,15 @@
 .categeories{
   width:80%;
-  height:350px;
-  border:1px solid black;
+  height:400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
-.categeories_section{
-    border:1px solid black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap:25px;
-}
-.categeories_section .cat_prod{
-    width:160px;
-    height:250px;
-    border:1px solid black;
-    border-radius:5px;
-}
-.cat_prod .cat_img{
- width: 98%;
- height:200px;
- border:1px solid black;
- border-radius:3px;
- margin-left:1%;
-}
-.cat_prod .cat_title{
+.categeories_section{ 
     width:100%;
-    border:1px solid black;
-    height:45px;
-    border-radius:3px;
+    height:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
 }
