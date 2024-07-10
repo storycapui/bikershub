@@ -1,0 +1,32 @@
+.newarrivals_section{
+    width:80%;
+    height:450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new_arr_section{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+}
+.new_arr{
+    width:375px;
+    height:350px;
+}
+.new_arr:nth-child(2){
+    width:500px;
+    height:350px;
+}
+.new_arr_image{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+

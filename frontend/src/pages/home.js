@@ -16,6 +16,7 @@ function Home() {
     <hr/>
     <Bestsellers />
     <br/>
+    <br/>
     <Newarrivals />
     
     </div>  
