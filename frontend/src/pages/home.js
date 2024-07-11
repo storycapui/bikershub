@@ -5,6 +5,7 @@ import home_banner from '../components/Assets/home_banner.jpg'
 import Categeories from '../components/categeories/categeories';
 import Bestsellers  from '../components/bestsellers/bestsellers';
 import { Newarrivals } from '../components/newarrivals/newarrivals';
+import { Shop_by_brands } from '../components/shop_by_brands/shop_by_brands';
 
 
 function Home() {
@@ -18,6 +19,9 @@ function Home() {
     <br/>
     <br/>
     <Newarrivals />
+    <br/>
+    <br/>
+    <Shop_by_brands />
     
     </div>  
     

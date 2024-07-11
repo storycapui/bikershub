@@ -8,11 +8,13 @@ import Womens from './pages/womens.js';
 import Gears from './pages/gears.js';
 import Shoes from './pages/shoes.js';
 import Community from './pages/community.js';
+import { Footer } from './footer/footer.js';
 
 
 
 function App() {
   return (
+     
     <Router>
     <Navbar />
     <main className="main-content">
@@ -27,7 +29,10 @@ function App() {
         <Route path="/community" element={<Community />} />
       </Routes>
     </main>
+    <Footer />
   </Router>
+  
+  
   );
 }
 

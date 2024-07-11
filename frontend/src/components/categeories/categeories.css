@@ -13,20 +13,27 @@
 .categeories_section{ 
     width:100%;
     height:100%;
-    display: flex;
-   justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
     gap:10px;
 }
 .categeories_section .cat_pro{
   width:200px;
   height:300px;
   border:1px solid black;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cat_pro img{
   width:150px;
   height:200px;
   object-fit: contain;
+}
+.cat_pro h2{
+  color:black; 
 }
 
