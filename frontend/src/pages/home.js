@@ -8,11 +8,13 @@ import { Newarrivals } from '../components/newarrivals/newarrivals';
 import { Shop_by_brands } from '../components/shop_by_brands/shop_by_brands';
 
 
+
 function Home() {
   return (
-    <mian>
+    <div>
     <div className='hm_banner'>
     <NavLink className="home_banner_img" to="/helmets"> <img src={home_banner} alt="" /> </NavLink>
+    </div> 
     <Categeories />
     <hr/>
     <Bestsellers />
@@ -21,12 +23,8 @@ function Home() {
     <Newarrivals />
     <br/>
     <br/>
-    <Shop_by_brands />
-    
-    </div>  
-    
-
-    </mian>
+    <Shop_by_brands /> 
+    </div>
   )
 }
 

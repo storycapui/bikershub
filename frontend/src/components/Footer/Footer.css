@@ -1,0 +1,94 @@
+.footer_content{
+    width:100%;
+    height:500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_content .news_letter_Section{
+    width:100%;
+    height:150px;
+    border:2px solid white;
+    display: flex;
+}
+.news_letter_Section h1{
+    color:#ffd900;
+    margin-left:150px;
+}
+.news_letter_Section{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news_letter_Section .input_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:80%;
+}
+.news_letter_Section .input_feild{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_feild .newsletter_input{
+    width:650px;
+    height:50px;
+}
+.input_feild .submit_button{
+    width:150px;
+    height:50px;
+    background-color: #ffd900;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    border-left:none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.input_feild input::placeholder{
+    font-size: 20px;
+}
+.news_letter_Section h4{
+    color:white;
+    margin-left:-170px;
+}
+.footer_content .footer_links{
+    width:100%;
+    height:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:3px solid white;
+}
+.footer_links .logo_social_icons{
+    width: 100%;
+    height: 100%;
+    border:1px solid white;
+}
+.footer_links .Product_links{
+    width: 100%;
+    height: 100%;
+    border:1px solid white;
+}
+.footer_links .footer_useful_links{
+    width: 100%;
+    height: 100%;
+    border:1px solid white;
+}
+.footer_links .company_links{
+    width: 100%;
+    height: 100%;
+    border:1px solid white;
+}
+.footer_links .address_links{
+    width: 100%;
+    height: 100%;
+    border:1px solid white;
+}
